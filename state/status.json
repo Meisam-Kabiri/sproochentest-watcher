@@ -10,6 +10,15 @@
       "status": "Registration closed"
     },
     {
+      "session": "2026-09-15-De",
+      "mode": "vun 09:00 bis 16:00 Auer",
+      "location": "INLL Glacis",
+      "written_exam": "15/09/2026",
+      "oral_exam": "15/09/2026",
+      "registration_deadline": "08/07/2026",
+      "status": "Registration closed"
+    },
+    {
       "session": "2026-09-24-Do",
       "mode": "vun 10:00 bis 12:00 Auer",
       "location": "INLL Glacis",
@@ -44,6 +53,15 @@
       "oral_exam": "15/12/2026",
       "registration_deadline": "01/09/2026",
       "status": "Sold Out"
+    },
+    {
+      "session": "2026-12-17-Do",
+      "mode": "vun 10:00 bis 12:00 Auer",
+      "location": "INLL Glacis",
+      "written_exam": "17/12/2026",
+      "oral_exam": "17/12/2026",
+      "registration_deadline": "10/08/2026",
+      "status": "Registration closed"
     },
     {
       "session": "2026-12-08-De2",
