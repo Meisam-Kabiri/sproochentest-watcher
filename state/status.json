@@ -10,45 +10,27 @@
       "status": "Registration closed"
     },
     {
-      "session": "2026-10-27-De",
-      "mode": "vun 10:00 bis 12:00 Auer",
+      "session": "2026-11-11-Me",
+      "mode": "vun 12:00 bis 16:00 Auer",
       "location": "INLL Glacis",
-      "written_exam": "27/10/2026",
-      "oral_exam": "27/10/2026",
-      "registration_deadline": "07/09/2026",
+      "written_exam": "11/11/2026",
+      "oral_exam": "11/11/2026",
+      "registration_deadline": "01/09/2026",
       "status": "Registration closed"
     },
     {
-      "session": "2026-12-15-De (Belval)",
-      "mode": "vun 12:00 bis 14:00 Auer",
-      "location": "INLL Belval",
-      "written_exam": "15/12/2026",
-      "oral_exam": "15/12/2026",
-      "registration_deadline": "08/09/2026",
-      "status": "Sold Out"
-    },
-    {
-      "session": "2027-01-05-De1",
-      "mode": "Vun 10:00 bis 12:00 Auer",
+      "session": "2026-12-09-Me",
+      "mode": "vun 12:00 bis 16:00 Auer",
       "location": "INLL Glacis",
-      "written_exam": "05/01/2027",
-      "oral_exam": "05/01/2027",
-      "registration_deadline": "30/09/2026",
+      "written_exam": "09/12/2026",
+      "oral_exam": "09/12/2026",
+      "registration_deadline": "14/09/2026",
       "status": "Sold Out"
     },
     {
       "session": "2027-01-05-De2",
       "mode": "vun 14:00 bis 16:00 Auer",
       "location": "INLL Glacis",
-      "written_exam": "05/01/2027",
-      "oral_exam": "05/01/2027",
-      "registration_deadline": "30/09/2026",
-      "status": "Sold Out"
-    },
-    {
-      "session": "2027-01-05-De (Belval)",
-      "mode": "vun 14:00 bis 16:00 Auer",
-      "location": "INLL Belval",
       "written_exam": "05/01/2027",
       "oral_exam": "05/01/2027",
       "registration_deadline": "30/09/2026",
@@ -64,26 +46,8 @@
       "status": "Sold Out"
     },
     {
-      "session": "2027-01-07-Do (Belval)",
-      "mode": "vun 12:00 bis 14:00 Auer",
-      "location": "INLL Belval",
-      "written_exam": "07/01/2027",
-      "oral_exam": "07/01/2027",
-      "registration_deadline": "30/09/2026",
-      "status": "Sold Out"
-    },
-    {
       "session": "2027-01-12-De1",
       "mode": "Vun 10:00 bis 12:00 Auer",
-      "location": "INLL Glacis",
-      "written_exam": "12/01/2027",
-      "oral_exam": "12/01/2027",
-      "registration_deadline": "30/09/2026",
-      "status": "Sold Out"
-    },
-    {
-      "session": "2027-01-12-De2",
-      "mode": "vun 14:00 bis 16:00 Auer",
       "location": "INLL Glacis",
       "written_exam": "12/01/2027",
       "oral_exam": "12/01/2027",
@@ -109,15 +73,6 @@
       "status": "Sold Out"
     },
     {
-      "session": "2027-01-14-Do (Belval)",
-      "mode": "vun 12:00 bis 14:00 Auer",
-      "location": "INLL Belval",
-      "written_exam": "14/01/2027",
-      "oral_exam": "14/01/2027",
-      "registration_deadline": "30/09/2026",
-      "status": "Sold Out"
-    },
-    {
       "session": "2027-01-19-De1",
       "mode": "Vun 10:00 bis 12:00 Auer",
       "location": "INLL Glacis",
@@ -125,24 +80,6 @@
       "oral_exam": "19/01/2027",
       "registration_deadline": "30/09/2026",
       "status": "Sold Out"
-    },
-    {
-      "session": "2027-01-19-De2",
-      "mode": "vun 14:00 bis 16:00 Auer",
-      "location": "INLL Glacis",
-      "written_exam": "19/01/2027",
-      "oral_exam": "19/01/2027",
-      "registration_deadline": "30/09/2026",
-      "status": "Sold Out"
-    },
-    {
-      "session": "2027-01-20-Me",
-      "mode": "vun 12:00 bis 16:00 Auer",
-      "location": "INLL Glacis",
-      "written_exam": "20/01/2027",
-      "oral_exam": "20/01/2027",
-      "registration_deadline": "01/09/2026",
-      "status": "Registration closed"
     },
     {
       "session": "2027-01-21-Do",
@@ -177,15 +114,6 @@
       "location": "INLL Glacis",
       "written_exam": "26/01/2027",
       "oral_exam": "26/01/2027",
-      "registration_deadline": "30/09/2026",
-      "status": "Sold Out"
-    },
-    {
-      "session": "2027-01-27-Me",
-      "mode": "vun 12:00 bis 16:00 Auer",
-      "location": "INLL Glacis",
-      "written_exam": "27/01/2027",
-      "oral_exam": "27/01/2027",
       "registration_deadline": "30/09/2026",
       "status": "Sold Out"
     }
