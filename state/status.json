@@ -19,29 +19,11 @@
       "status": "Sold Out"
     },
     {
-      "session": "2027-01-12-De1",
-      "mode": "Vun 10:00 bis 12:00 Auer",
-      "location": "INLL Glacis",
-      "written_exam": "12/01/2027",
-      "oral_exam": "12/01/2027",
-      "registration_deadline": "30/09/2026",
-      "status": "Sold Out"
-    },
-    {
       "session": "2027-01-21-Do",
       "mode": "vun 10:00 bis 12:00 Auer",
       "location": "INLL Glacis",
       "written_exam": "21/01/2027",
       "oral_exam": "21/01/2027",
-      "registration_deadline": "30/09/2026",
-      "status": "Sold Out"
-    },
-    {
-      "session": "2027-01-26-De1",
-      "mode": "Vun 10:00 bis 12:00 Auer",
-      "location": "INLL Glacis",
-      "written_exam": "26/01/2027",
-      "oral_exam": "26/01/2027",
       "registration_deadline": "30/09/2026",
       "status": "Sold Out"
     }
