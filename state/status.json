@@ -8,24 +8,6 @@
       "oral_exam": "01/01/2099",
       "registration_deadline": "18/08/2025",
       "status": "Registration closed"
-    },
-    {
-      "session": "2026-10-13-De (Belval)",
-      "mode": "vun 12:00 bis 14:00 Auer",
-      "location": "INLL Belval",
-      "written_exam": "13/10/2026",
-      "oral_exam": "13/10/2026",
-      "registration_deadline": "15/09/2026",
-      "status": "Registration closed"
-    },
-    {
-      "session": "2026-10-29-Do (Belval)",
-      "mode": "vun 12:00 bis 14:00 Auer",
-      "location": "INLL Belval",
-      "written_exam": "29/10/2026",
-      "oral_exam": "29/10/2026",
-      "registration_deadline": "21/09/2026",
-      "status": "Registration closed"
     }
   ]
 }
