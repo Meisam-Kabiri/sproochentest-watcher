@@ -2,5 +2,3 @@ __pycache__/
 *.pyc
 .venv/
 .env
-state/local_status.json
-logs/

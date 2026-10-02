@@ -1,16 +1,25 @@
 name: Check Sproochentest availability
 
+# One long-running job checks every 2 minutes for ~5h45m (jobs are capped at 6h),
+# then re-dispatches itself so coverage is continuous. The hourly cron only restarts
+# the chain if it ever breaks; the concurrency group keeps a single watcher running.
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "7 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  actions: write
+
+concurrency:
+  group: watcher
+  cancel-in-progress: false
 
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
 
@@ -20,14 +29,26 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python scripts/check_availability.py
+      - name: Watch loop
         env:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-
-      - name: Commit updated state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state/status.json
-          git diff --cached --quiet || git commit -m "Update availability state"
-          git push
+          end=$((SECONDS + 345 * 60))
+          while [ $SECONDS -lt $end ]; do
+            echo "=== $(date -u +%H:%M:%S)"
+            python scripts/check_availability.py || echo "check failed"
+            git add state/status.json
+            if ! git diff --cached --quiet; then
+              git commit -qm "Update availability state"
+              git pull -q --rebase && git push -q || echo "push failed"
+            fi
+            sleep 120
+          done
+
+      - name: Start next watcher
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run check.yml --ref main
